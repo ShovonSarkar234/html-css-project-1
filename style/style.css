@@ -70,8 +70,9 @@ a {
 }
 .tittle {
     text-align: center;
-    font-size: 60px;
-    margin-top: 20px;   
+    font-size: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;   
 }
 
 .tittle::after {
@@ -112,9 +113,37 @@ a {
     padding: 15px;
     background-color: chocolate;
     border: 0;
+    border-radius: 10px;
 }
 
 .btn:hover {
     color: white;
     background-color: orange;
+}
+/*banner section end*/
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.img-about {
+    width: 450px;
+    margin-left: 98px;
+    margin-top: 35px;
+}
+
+.tittle-2 {
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.p-1, .p-2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 10px;
 }
