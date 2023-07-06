@@ -1,3 +1,4 @@
+/*header section start*/
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@
 }
 
 nav {
-    background-color: #000000ad;
+    background-color: #00000080;
 }
 
 a {
@@ -18,12 +19,9 @@ a {
     text-decoration: none;
 }
 
-.logo {
-    padding: 18px;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: white;
-    cursor: pointer;
+.logo img{
+    width: 220px;
+    padding: 15px;
     margin-top: 5px;
 }
 .logo:hover {
@@ -58,3 +56,4 @@ a {
     background-color: palegreen;
     
 }
+/*header section end*/
