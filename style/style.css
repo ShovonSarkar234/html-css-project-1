@@ -10,7 +10,7 @@
 }
 
 nav {
-    background-color: #000;
+    background-color: #000000ad;
 }
 
 a {
@@ -26,7 +26,10 @@ a {
     cursor: pointer;
     margin-top: 5px;
 }
-
+.logo:hover {
+    color: brown;
+    transform: rotate(-10deg);
+}
 .menu-con {
     display: flex;
     justify-content: space-between;
