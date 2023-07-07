@@ -202,13 +202,25 @@ a {
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 20px;
+    
 }
 
 .head {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
 }
 
 .useful p {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.bob {
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    width: 1150px;
+    margin: auto;
+}
+.copy {
+    text-align: center;
 }
